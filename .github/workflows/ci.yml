@@ -22,6 +22,8 @@ jobs:
 
       - name: Compilar projeto
         run: mvn compile
+        working-directory: e2ePdA
 
       - name: Executar testes
         run: mvn test
+        working-directory: e2ePdA
