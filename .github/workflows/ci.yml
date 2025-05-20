@@ -22,8 +22,6 @@ jobs:
 
       - name: Compilar projeto
         run: mvn compile
-        working-directory: Plataforma
 
       - name: Executar testes
         run: mvn test
-        working-directory: Plataforma
