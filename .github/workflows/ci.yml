@@ -20,11 +20,10 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
-      - name: Configurar permissões de execução
-        run: chmod +x mvnw || true
-
       - name: Compilar projeto
         run: mvn compile
+        working-directory: Plataforma
 
       - name: Executar testes
         run: mvn test
+        working-directory: Plataforma
