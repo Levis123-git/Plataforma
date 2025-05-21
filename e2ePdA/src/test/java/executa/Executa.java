@@ -10,7 +10,7 @@ public class Executa extends Drivers {
     public void setup(){
         try {
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless");
+            //options.addArguments("--headless");
             driver = new ChromeDriver(options);
             driver.get("https://plataforma.dev.e2etreinamentos.com.br/");
             driver.manage().window().maximize();
@@ -21,6 +21,7 @@ public class Executa extends Drivers {
     }
 
     public void tearDown(){
+    	
         if (driver!= null){
             driver.quit();
         }

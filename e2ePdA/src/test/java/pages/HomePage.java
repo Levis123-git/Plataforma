@@ -1,5 +1,10 @@
 package pages;
 
+import java.util.NoSuchElementException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
 import drivers.Drivers;
 import elementos.Elementos;
 import executa.Executa;
@@ -21,6 +26,7 @@ public class HomePage extends Drivers {
 		metodo.escrever(el.getCampoSenha(), senha);
 		metodo.clicar(el.getBtnLogar());
 		metodo.esperarUrlConter(urlDesejada, 2);
+		
 		
 
 	}

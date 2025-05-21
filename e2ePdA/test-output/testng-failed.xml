@@ -5,8 +5,8 @@
     <classes>
       <class name="testes.LoginTest">
         <methods>
+          <include name="loginSucesso"/>
           <include name="depoisDosTestes"/>
-          <include name="logoutSucesso"/>
           <include name="antesDosTestes"/>
         </methods>
       </class> <!-- testes.LoginTest -->

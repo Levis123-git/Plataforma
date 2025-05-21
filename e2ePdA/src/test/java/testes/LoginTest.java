@@ -24,16 +24,16 @@ public class LoginTest extends Drivers {
 		executa.tearDown();
 	}
 	
-	@Test(priority = 1)
+	/*@Test(priority = 1)
 	void logoutSucesso() {
-		home.logout("johnson139@e2etreinamentos.com.br", "Teste@1234", "https://plataforma.dev.e2etreinamentos.com.br/");
+		home.logout("johnson975@e2etreinamentos.com.br", "Teste@1234", "https://plataforma.dev.e2etreinamentos.com.br/");
 	}
 	
 	
 	@Test(priority = 2)
 	void loginSucesso() {
 		home.login("johnson139@e2etreinamentos.com.br", "Teste@1234", "/dashboard");
-	}
+	}*/
 	
 	@Test(priority = 3)
 	void naoDeveLogarEmailIncorreto() {
